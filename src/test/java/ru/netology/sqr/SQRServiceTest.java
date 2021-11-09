@@ -16,7 +16,7 @@ class SQRServiceTest {
     })
     void shouldCalculateNumberSquaresHitTheRange(String testName, int upperBorder, int bottomBorder, int expected) {
         SQRService service = new SQRService();
-        int actual = service.CalculateNumberSquares (upperBorder, bottomBorder);
+        int actual = service.calculateNumberSquares (upperBorder, bottomBorder);
         assertEquals(expected, actual);
     }
 }
